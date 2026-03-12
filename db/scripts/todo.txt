@@ -1,0 +1,9 @@
+TODO: SQL Queries to Implement
+
+[ ] 1. get_category_tree_up.sql - Path to root (Breadcrumbs/Inheritance)
+[ ] 2. get_category_tree_down.sql - Path to all subcategories (Category products)
+[ ] 3. get_available_filters.sql - List all attributes for category filters (inherited)
+[ ] 4. filter_products_classic_eav.sql - Classic EAV filtering using multiple JOINs
+[ ] 5. filter_products_flat_jsonb.sql - Modern JSONB filtering with GIN index
+[ ] 6. get_faceted_navigation_counts.sql - Counts for filter options (e.g., Samsung (5))
+[ ] 7. get_pdp_full_details.sql - Full product data for PDP (labels + values)
